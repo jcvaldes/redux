@@ -17,7 +17,6 @@ export class TodoAddComponent implements OnInit {
     this.txtInput = new FormControl('', Validators.required);
   }
   agregarTodo() {
-    debugger;
     if (this.txtInput.invalid) {
       return;
     }
